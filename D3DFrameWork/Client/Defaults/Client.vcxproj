@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{40FE0980-27DD-4E8E-B7B4-D0AE5E03ED73}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>../Bin/Debug/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/x64/Debug/</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>../Bin/Release/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/x64/Release/</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Codes/;../Headers/;../../Base/;../../Reference/Headers/;../../Reference/Shader/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;System.lib;Utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Codes/;../Headers/;../../Base/;../../Reference/Headers/;../../Reference/Shader/;../../Reference/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;LowLevel_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;PhysX_64.lib;System.lib;Utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Codes/;../Headers/;../../Base/;../../Reference/Headers/;../../Reference/Shader/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;System.lib;Utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Codes/;../Headers/;../../Base/;../../Reference/Headers/;../../Reference/Shader/;../../Reference/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/ReleaseLib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;LowLevel_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;PhysXPvdSDK_static_64.lib;PhysX_64.lib;System.lib;Utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Area.h" />
+    <ClInclude Include="..\Headers\BackGround.h" />
+    <ClInclude Include="..\Headers\Back_MonsterStat_UI.h" />
+    <ClInclude Include="..\Headers\Back_Stat_UI.h" />
+    <ClInclude Include="..\Headers\Back_StructureStat_UI.h" />
+    <ClInclude Include="..\Headers\BasketballHoop.h" />
+    <ClInclude Include="..\Headers\Blood.h" />
+    <ClInclude Include="..\Headers\BloodParticle.h" />
+    <ClInclude Include="..\Headers\BloodTest.h" />
+    <ClInclude Include="..\Headers\Border.h" />
+    <ClInclude Include="..\Headers\Buff.h" />
+    <ClInclude Include="..\Headers\Bullet.h" />
+    <ClInclude Include="..\Headers\CameraMrg.h" />
+    <ClInclude Include="..\Headers\CookingCampFire.h" />
+    <ClInclude Include="..\headers\Campfire.h" />
+    <ClInclude Include="..\Headers\CenterTap.h" />
+    <ClInclude Include="..\Headers\Center_Back_UI.h" />
+    <ClInclude Include="..\Headers\Center_UI.h" />
+    <ClInclude Include="..\Headers\CollisionFunc.h" />
+    <ClInclude Include="..\Headers\CrossHair_UI.h" />
+    <ClInclude Include="..\Headers\Dino.h" />
+    <ClInclude Include="..\Headers\Dino_Allo.h" />
+    <ClInclude Include="..\Headers\Dino_Ankylo.h" />
+    <ClInclude Include="..\Headers\Dino_Brachio.h" />
+    <ClInclude Include="..\Headers\Dino_Dodo.h" />
+    <ClInclude Include="..\Headers\Dino_Dragon.h" />
+    <ClInclude Include="..\Headers\Dino_Egg.h" />
+    <ClInclude Include="..\Headers\Dino_iguanodon.h" />
+    <ClInclude Include="..\Headers\Dino_Para.h" />
+    <ClInclude Include="..\Headers\Dino_Ptero.h" />
+    <ClInclude Include="..\Headers\Dino_Quetzal.h" />
+    <ClInclude Include="..\Headers\Dino_Raptor.h" />
+    <ClInclude Include="..\Headers\Dino_Rex.h" />
+    <ClInclude Include="..\Headers\Dino_Stego.h" />
+    <ClInclude Include="..\Headers\Dino_Therizino.h" />
+    <ClInclude Include="..\Headers\Dino_Yutyrannus.h" />
+    <ClInclude Include="..\Headers\Dodo_Ball.h" />
+    <ClInclude Include="..\Headers\Dust.h" />
+    <ClInclude Include="..\Headers\DynamicCamera.h" />
+    <ClInclude Include="..\Headers\EffectObject.h" />
+    <ClInclude Include="..\Headers\EffectObjectArrow.h" />
+    <ClInclude Include="..\Headers\EffectObjectRev.h" />
+    <ClInclude Include="..\Headers\Fire.h" />
+    <ClInclude Include="..\Headers\FireSmoke.h" />
+    <ClInclude Include="..\Headers\FeedingTrough.h" />
+    <ClInclude Include="..\Headers\WallTorch.h" />
+    <ClInclude Include="..\Headers\WaterWell.h" />
+    <ClInclude Include="..\Headers\Barricade.h" />
+    <ClInclude Include="..\Headers\CompostBin.h" />
+    <ClInclude Include="..\Headers\CropPlot.h" />
+    <ClInclude Include="..\Headers\Fireplace.h" />
+    <ClInclude Include="..\Headers\Storage.h" />
+    <ClInclude Include="..\headers\Forge.h" />
+    <ClInclude Include="..\Headers\FPV_QuaternionCamera.h" />
+    <ClInclude Include="..\Headers\FireTest.h" />
+    <ClInclude Include="..\Headers\GateFrame.h" />
+    <ClInclude Include="..\Headers\Goal.h" />
+    <ClInclude Include="..\Headers\GuideFont_UI.h" />
+    <ClInclude Include="..\Headers\Harvestable.h" />
+    <ClInclude Include="..\Headers\Harvestable_Bush.h" />
+    <ClInclude Include="..\Headers\Harvestable_Pebble.h" />
+    <ClInclude Include="..\Headers\Harvestable_Tree.h" />
+    <ClInclude Include="..\Headers\InfoView_UI.h" />
+    <ClInclude Include="..\Headers\InvenCategory.h" />
+    <ClInclude Include="..\Headers\InvenDropAll.h" />
+    <ClInclude Include="..\Headers\InvenFolder.h" />
+    <ClInclude Include="..\Headers\InvenIcon.h" />
+    <ClInclude Include="..\Headers\InvenItem.h" />
+    <ClInclude Include="..\Headers\InvenItemSort.h" />
+    <ClInclude Include="..\Headers\InvenSearchbar.h" />
+    <ClInclude Include="..\Headers\InvenTap.h" />
+    <ClInclude Include="..\Headers\InvenToolTip.h" />
+    <ClInclude Include="..\Headers\Inventory.h" />
+    <ClInclude Include="..\Headers\InvenTransfer.h" />
+    <ClInclude Include="..\Headers\Item_Info_View_UI.h" />
+    <ClInclude Include="..\Headers\Left_Inventory.h" />
+    <ClInclude Include="..\Headers\Loading.h" />
+    <ClInclude Include="..\Headers\LoadingBackGround.h" />
+    <ClInclude Include="..\Headers\LoadingTex_UI.h" />
+    <ClInclude Include="..\Headers\Logo.h" />
+    <ClInclude Include="..\Headers\LR_Inventory.h" />
+    <ClInclude Include="..\Headers\MainApp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MiniMap_UI.h" />
+    <ClInclude Include="..\Headers\MortarPestal.h" />
+    <ClInclude Include="..\Headers\MonsterStat_UI.h" />
+    <ClInclude Include="..\Headers\MonsterStat_UI_Bar.h" />
+    <ClInclude Include="..\Headers\Obstacle.h" />
+    <ClInclude Include="..\Headers\OrthoUI.h" />
+    <ClInclude Include="..\Headers\PhysX_Mgr.h" />
+    <ClInclude Include="..\Headers\PlatformSaddle_Brachio.h" />
+    <ClInclude Include="..\Headers\Player.h" />
+    <ClInclude Include="..\Headers\PlayerHit_UI.h" />
+    <ClInclude Include="..\Headers\QuickSlot_UI.h" />
+    <ClInclude Include="..\Headers\RandomFunc.h" />
+    <ClInclude Include="..\Headers\Right_Inventory.h" />
+    <ClInclude Include="..\Headers\Harvestable_Rock.h" />
+    <ClInclude Include="..\Headers\RingCommand_UI.h" />
+    <ClInclude Include="..\Headers\Roar.h" />
+    <ClInclude Include="..\Headers\Scroll.h" />
+    <ClInclude Include="..\Headers\Scroll_UI.h" />
+    <ClInclude Include="..\Headers\ShadowPosTest.h" />
+    <ClInclude Include="..\Headers\SkyDome.h" />
+    <ClInclude Include="..\Headers\SleepingBag.h" />
+    <ClInclude Include="..\Headers\Smithy.h" />
+    <ClInclude Include="..\Headers\Sound_Mgr.h" />
+    <ClInclude Include="..\Headers\Stage.h" />
+    <ClInclude Include="..\Headers\Stat_UI.h" />
+    <ClInclude Include="..\Headers\Stat_UI_Bar.h" />
+    <ClInclude Include="..\Headers\StructDust.h" />
+    <ClInclude Include="..\Headers\Structure.h" />
+    <ClInclude Include="..\Headers\StructureStat_UI.h" />
+    <ClInclude Include="..\Headers\StructureStat_UI_Bar.h" />
+    <ClInclude Include="..\Headers\SummaryStat_UI.h" />
+    <ClInclude Include="..\Headers\SummaryStat_UI_Monster.h" />
+    <ClInclude Include="..\Headers\TamingName_UI.h" />
+    <ClInclude Include="..\Headers\Terrain.h" />
+    <ClInclude Include="..\Headers\ThatchBed.h" />
+    <ClInclude Include="..\Headers\Thatch_Door.h" />
+    <ClInclude Include="..\Headers\Thatch_DoorFrame.h" />
+    <ClInclude Include="..\Headers\Thatch_Floor.h" />
+    <ClInclude Include="..\Headers\Thatch_Roof.h" />
+    <ClInclude Include="..\Headers\Thatch_Wall.h" />
+    <ClInclude Include="..\Headers\Tile.h" />
+    <ClInclude Include="..\Headers\TPV_Camera.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TPV_QuaternionCamera.h" />
+    <ClInclude Include="..\Headers\UI.h" />
+    <ClInclude Include="..\Headers\Unit.h" />
+    <ClInclude Include="..\Headers\Value.h" />
+    <ClInclude Include="..\Headers\Water.h" />
+    <ClInclude Include="..\Headers\WaterFall.h" />
+    <ClInclude Include="..\Headers\Weapon.h" />
+    <ClInclude Include="..\Headers\WorldFont_UI.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Text_Input.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Area.cpp" />
+    <ClCompile Include="..\Codes\BackGround.cpp" />
+    <ClCompile Include="..\Codes\Back_MonsterStat_UI.cpp" />
+    <ClCompile Include="..\Codes\Back_Stat_UI.cpp" />
+    <ClCompile Include="..\Codes\Back_StructrueStat_UI.cpp" />
+    <ClCompile Include="..\Codes\BasketballHoop.cpp" />
+    <ClCompile Include="..\Codes\Blood.cpp" />
+    <ClCompile Include="..\Codes\BloodParticle.cpp" />
+    <ClCompile Include="..\Codes\BloodTest.cpp" />
+    <ClCompile Include="..\Codes\Border.cpp" />
+    <ClCompile Include="..\Codes\Buff.cpp" />
+    <ClCompile Include="..\Codes\Bullet.cpp" />
+    <ClCompile Include="..\Codes\CameraMrg.cpp" />
+    <ClCompile Include="..\Codes\CookingCampFire.cpp" />
+    <ClCompile Include="..\Codes\Campfire.cpp" />
+    <ClCompile Include="..\Codes\CenterTap.cpp" />
+    <ClCompile Include="..\Codes\Center_Back_UI.cpp" />
+    <ClCompile Include="..\Codes\Center_UI.cpp" />
+    <ClCompile Include="..\Codes\CollisionFunc.cpp" />
+    <ClCompile Include="..\Codes\CrossHair_UI.cpp" />
+    <ClCompile Include="..\Codes\Dino.cpp" />
+    <ClCompile Include="..\Codes\Dino_Allo.cpp" />
+    <ClCompile Include="..\Codes\Dino_Ankylo.cpp" />
+    <ClCompile Include="..\Codes\Dino_Brachio.cpp" />
+    <ClCompile Include="..\Codes\Dino_Dodo.cpp" />
+    <ClCompile Include="..\Codes\Dino_Dragon.cpp" />
+    <ClCompile Include="..\Codes\Dino_Egg.cpp" />
+    <ClCompile Include="..\Codes\Dino_Iguanodon.cpp" />
+    <ClCompile Include="..\Codes\Dino_Para.cpp" />
+    <ClCompile Include="..\Codes\Dino_Ptero.cpp" />
+    <ClCompile Include="..\Codes\Dino_Quetzal.cpp" />
+    <ClCompile Include="..\Codes\Dino_Raptor.cpp" />
+    <ClCompile Include="..\Codes\Dino_Rex.cpp" />
+    <ClCompile Include="..\Codes\Dino_Stego.cpp" />
+    <ClCompile Include="..\Codes\Dino_Therizino.cpp" />
+    <ClCompile Include="..\Codes\Dino_Yutyrannus.cpp" />
+    <ClCompile Include="..\Codes\Dodo_Ball.cpp" />
+    <ClCompile Include="..\Codes\Dust.cpp" />
+    <ClCompile Include="..\Codes\DynamicCamera.cpp" />
+    <ClCompile Include="..\Codes\EffectObject.cpp" />
+    <ClCompile Include="..\Codes\EffectObjectArrow.cpp" />
+    <ClCompile Include="..\Codes\EffectObjectRev.cpp" />
+    <ClCompile Include="..\Codes\Fire.cpp" />
+    <ClCompile Include="..\Codes\FireSmoke.cpp" />
+    <ClCompile Include="..\Codes\Storage.cpp" />
+    <ClCompile Include="..\Codes\Fireplace.cpp" />
+    <ClCompile Include="..\Codes\FeedingTrough.cpp" />
+    <ClCompile Include="..\Codes\CropPlot.cpp" />
+    <ClCompile Include="..\Codes\CompostBin.cpp" />
+    <ClCompile Include="..\Codes\Barricade.cpp" />
+    <ClCompile Include="..\Codes\WaterWell.cpp" />
+    <ClCompile Include="..\Codes\WallTorch.cpp" />
+    <ClCompile Include="..\Codes\Forge.cpp" />
+    <ClCompile Include="..\Codes\FPV_QuaternionCamera.cpp" />
+    <ClCompile Include="..\Codes\FireTest.cpp" />
+    <ClCompile Include="..\Codes\GateFrame.cpp" />
+    <ClCompile Include="..\Codes\Goal.cpp" />
+    <ClCompile Include="..\Codes\GuideFont_UI.cpp" />
+    <ClCompile Include="..\Codes\Harvestable.cpp" />
+    <ClCompile Include="..\Codes\Harvestable_Bush.cpp" />
+    <ClCompile Include="..\Codes\Harvestable_Pebble.cpp" />
+    <ClCompile Include="..\Codes\Harvestable_Rock.cpp" />
+    <ClCompile Include="..\Codes\Harvestable_Tree.cpp" />
+    <ClCompile Include="..\Codes\InfoView_UI.cpp" />
+    <ClCompile Include="..\Codes\InvenCategory.cpp" />
+    <ClCompile Include="..\Codes\InvenDropAll.cpp" />
+    <ClCompile Include="..\Codes\InvenFolder.cpp" />
+    <ClCompile Include="..\Codes\InvenIcon.cpp" />
+    <ClCompile Include="..\Codes\InvenItem.cpp" />
+    <ClCompile Include="..\Codes\InvenItemSort.cpp" />
+    <ClCompile Include="..\Codes\InvenSearchbar.cpp" />
+    <ClCompile Include="..\Codes\InvenTap.cpp" />
+    <ClCompile Include="..\Codes\InvenToolTip.cpp" />
+    <ClCompile Include="..\Codes\Inventory.cpp" />
+    <ClCompile Include="..\Codes\InvenTransfer.cpp" />
+    <ClCompile Include="..\Codes\Item_Info_View_UI.cpp" />
+    <ClCompile Include="..\Codes\Left_Inventory.cpp" />
+    <ClCompile Include="..\Codes\Loading.cpp" />
+    <ClCompile Include="..\Codes\LoadingBackGround.cpp" />
+    <ClCompile Include="..\Codes\LoadingTex_UI.cpp" />
+    <ClCompile Include="..\Codes\Logo.cpp" />
+    <ClCompile Include="..\Codes\LR_Inventory.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MiniMap_UI.cpp" />
+    <ClCompile Include="..\Codes\MortarPestal.cpp" />
+    <ClCompile Include="..\Codes\MonsterStat_UI.cpp" />
+    <ClCompile Include="..\Codes\MonsterStat_UI_Bar.cpp" />
+    <ClCompile Include="..\Codes\Obstacle.cpp" />
+    <ClCompile Include="..\Codes\OrthoUI.cpp" />
+    <ClCompile Include="..\Codes\PhysX_Mgr.cpp" />
+    <ClCompile Include="..\Codes\PlatformSaddle_Brachio.cpp" />
+    <ClCompile Include="..\Codes\Player.cpp" />
+    <ClCompile Include="..\Codes\PlayerHit_UI.cpp" />
+    <ClCompile Include="..\Codes\QuickSlot_UI.cpp" />
+    <ClCompile Include="..\Codes\RandomFunc.cpp" />
+    <ClCompile Include="..\Codes\Right_Inventory.cpp" />
+    <ClCompile Include="..\Codes\RingCommand_UI.cpp" />
+    <ClCompile Include="..\Codes\Roar.cpp" />
+    <ClCompile Include="..\Codes\Scroll.cpp" />
+    <ClCompile Include="..\Codes\Scroll_UI.cpp" />
+    <ClCompile Include="..\Codes\ShadowPosTest.cpp" />
+    <ClCompile Include="..\Codes\SkyDome.cpp" />
+    <ClCompile Include="..\Codes\SleepingBag.cpp" />
+    <ClCompile Include="..\Codes\Smithy.cpp" />
+    <ClCompile Include="..\Codes\Sound_Mgr.cpp" />
+    <ClCompile Include="..\Codes\Stage.cpp" />
+    <ClCompile Include="..\Codes\Stat_UI.cpp" />
+    <ClCompile Include="..\Codes\Stat_UI_Bar.cpp" />
+    <ClCompile Include="..\Codes\Structure.cpp" />
+    <ClCompile Include="..\Codes\StructureStat_UI.cpp" />
+    <ClCompile Include="..\Codes\StructureStat_UI_Bar.cpp" />
+    <ClCompile Include="..\Codes\SturctDust.cpp" />
+    <ClCompile Include="..\Codes\SummaryStat_UI.cpp" />
+    <ClCompile Include="..\Codes\SummaryStat_UI_Monster.cpp" />
+    <ClCompile Include="..\Codes\TamingName_UI.cpp" />
+    <ClCompile Include="..\Codes\Terrain.cpp" />
+    <ClCompile Include="..\Codes\ThatchBed.cpp" />
+    <ClCompile Include="..\Codes\Thatch_Door.cpp" />
+    <ClCompile Include="..\Codes\Thatch_DoorFrame.cpp" />
+    <ClCompile Include="..\Codes\Thatch_Floor.cpp" />
+    <ClCompile Include="..\Codes\Thatch_Roof.cpp" />
+    <ClCompile Include="..\Codes\Thatch_Wall.cpp" />
+    <ClCompile Include="..\Codes\Tile.cpp" />
+    <ClCompile Include="..\Codes\TPV_Camera.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TPV_QuaternionCamera.cpp" />
+    <ClCompile Include="..\Codes\UI.cpp" />
+    <ClCompile Include="..\Codes\Unit.cpp" />
+    <ClCompile Include="..\Codes\Water.cpp" />
+    <ClCompile Include="..\Codes\WaterFall.cpp" />
+    <ClCompile Include="..\Codes\Weapon.cpp" />
+    <ClCompile Include="..\Codes\WorldFont_UI.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Text_Input.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Defaults">
+      <UniqueIdentifier>{8ee021f3-d9a1-48e8-9c32-8af0f3908eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{252db900-35f3-43f3-bf84-0a64f8d6973f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{4951722d-78f3-4151-b899-a3e4518262ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{79471ab6-77ac-4136-8c97-db615a6883dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{84b37186-da3f-42cb-92f1-2c9fd71b1a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Logo">
+      <UniqueIdentifier>{b632093c-0cde-4b4e-864d-e18f292675d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Stage">
+      <UniqueIdentifier>{39d33c4d-ef0c-42d8-a1b6-9b0a14b306dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\99.Loading">
+      <UniqueIdentifier>{07bb5e4c-134f-473e-b93f-597021ffd6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Sound_Mgr">
+      <UniqueIdentifier>{2c7505f8-5296-4306-8c64-9904f788cf68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI">
+      <UniqueIdentifier>{0023d8d1-22fd-4cf6-bab2-50759e3d329a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Weapon">
+      <UniqueIdentifier>{9788fd57-a978-4b52-9970-033dd68cca98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Camera">
+      <UniqueIdentifier>{1e918177-f82b-4534-85c6-f3ae7c86c82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Camera\00.DynamicCamera">
+      <UniqueIdentifier>{faea14b9-4496-4039-abd3-0aee812aea8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Camera\01.TPV_Camera">
+      <UniqueIdentifier>{d9e4f8ef-b9ac-42e6-ad15-13c1b11e5a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Terrain">
+      <UniqueIdentifier>{3436092f-1dfc-41a2-97a5-fd9721e818b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Function">
+      <UniqueIdentifier>{ed69844c-bac2-41e2-a338-419affb50339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit">
+      <UniqueIdentifier>{096971c0-f3c2-4a3e-9039-30b588ead980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\01.Player">
+      <UniqueIdentifier>{8dd53b12-4d73-46a5-bfdb-3a79fcefe9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino">
+      <UniqueIdentifier>{7cad00d7-590a-4ae5-a3fb-80bb28681687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\00.Dino_Dodo">
+      <UniqueIdentifier>{f9e5c264-ba67-46de-956b-9679ccf457a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\01.Dino_Rex">
+      <UniqueIdentifier>{86d7170b-1e63-4f37-8965-c13982d54642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI">
+      <UniqueIdentifier>{0af029ce-7b01-453f-8988-d32f7d692823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory">
+      <UniqueIdentifier>{c3009986-1f8b-44bc-aec6-fb44ebb6193f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\00.Inventory">
+      <UniqueIdentifier>{824cbe3d-4bb2-444d-93cb-8f070a83afe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\01.InvenTap">
+      <UniqueIdentifier>{ab130912-be1d-41cc-a57b-02677c139999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon">
+      <UniqueIdentifier>{89008051-2e60-42ab-9124-698aa12476a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\00.Inven_Transfer">
+      <UniqueIdentifier>{972e5810-38e5-4577-afab-d3158d91f750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\02.Inven_ItemSort">
+      <UniqueIdentifier>{b5cf3e46-df02-4419-b5cc-1d5e489fbbba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\03.Inven_Folder">
+      <UniqueIdentifier>{f0618b1d-c362-449d-a11e-5a702344f0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\04.Inven_Category">
+      <UniqueIdentifier>{54144f12-a086-4b3c-a946-217eac9a6731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\05.Inven_ToolTip">
+      <UniqueIdentifier>{0e46bd2e-4c97-4f85-acf5-6d8a521f7770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\06.Inven_SearchBar">
+      <UniqueIdentifier>{7fb12006-5d41-4141-90a1-8be9014510ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\01.Inven_DropAll">
+      <UniqueIdentifier>{8f548e60-3a88-48f9-a02c-e4301b6d8b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\03.InvenItem">
+      <UniqueIdentifier>{514130c0-5e90-4e01-a6ff-56e68bc6c0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory">
+      <UniqueIdentifier>{c29710d6-cf2e-4c44-8488-6b675235056a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory\01.Left_Inventory">
+      <UniqueIdentifier>{7f466b16-8e0d-4f41-b5ee-a6cd706f73cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory\02.Right_Inventory">
+      <UniqueIdentifier>{54536b4c-b05b-4aea-8a19-442cfc6c579b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\03.Harvestable">
+      <UniqueIdentifier>{cb296251-03c8-4441-a9bd-aa089035ad67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center">
+      <UniqueIdentifier>{0e6ec766-0932-4cd1-9bc3-bbcfc3211a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat">
+      <UniqueIdentifier>{916418bd-964e-4b10-a2b3-d556ff4904ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center\99.Center_UI">
+      <UniqueIdentifier>{e1653668-cd00-4295-816f-9a0ca51c66ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center\99.Center_UI\00.Stat_UI">
+      <UniqueIdentifier>{50480824-7388-45e2-a3c4-63911b0176f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\00.UI_Back_Center">
+      <UniqueIdentifier>{a25fce03-07cc-4873-8493-658deb0e9b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\00.UI_Back_Center\00.UI_Back_Stat">
+      <UniqueIdentifier>{1ab5be64-cafd-4ff3-b9a2-09fbc261f316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\01.UI_Center_Tap">
+      <UniqueIdentifier>{435c7edf-f15d-4651-9574-a275d748b7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\02.UI_Stat_Bar">
+      <UniqueIdentifier>{02b70bc7-e786-41db-83dc-1921b55e99e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.PhysX_Mgr">
+      <UniqueIdentifier>{13f64d58-d763-42ff-a88d-c50ba800e871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\02.UI_CurtStat">
+      <UniqueIdentifier>{aa05b958-0af4-4a40-925d-23d7b06f4f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\03.UI_QuickSlot">
+      <UniqueIdentifier>{94f0d168-d083-4532-bdf5-48b7db49bc8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\04.UI_GuideFont">
+      <UniqueIdentifier>{5a80fa9f-75b0-46ba-82a9-498e20d0bf14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\99.Border">
+      <UniqueIdentifier>{1dd5827b-f8ce-43ca-b2c5-86feb441c17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\97.LoadingBackGround">
+      <UniqueIdentifier>{c03e1e31-4982-466d-a042-655d567dddea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\98.BackGround">
+      <UniqueIdentifier>{21d8f9c9-59ca-4f07-8a6b-fdbf2ddaa657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\02.Dino_Para">
+      <UniqueIdentifier>{16eb73d3-e3ba-4bc8-819c-f5eec4b46f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\03.Dino_Iguanodon">
+      <UniqueIdentifier>{ac9dff46-82eb-4d4a-978e-a57840506b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\04.Dino_Therizino">
+      <UniqueIdentifier>{b28fc53b-7244-4bf7-a5b7-79aa6a242936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\06.Dino_Allo">
+      <UniqueIdentifier>{cbcca64f-05b5-4df6-98e9-9a49b431c60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\05.Dino_Brachio">
+      <UniqueIdentifier>{7013f121-85a9-403e-803a-f27510cc4033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\07.Dino_Raptor">
+      <UniqueIdentifier>{e0973efb-1847-42dd-a727-d02da6a7200e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\05.UI_InfoView">
+      <UniqueIdentifier>{165493d2-fa22-45fd-b46b-790d794f1ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\100.LoadingTex_UI">
+      <UniqueIdentifier>{15d82eda-e02c-4a88-8e78-765853ba5989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect">
+      <UniqueIdentifier>{5bbe6afd-c474-4433-aa7b-fbd4dc2c3dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\00. Blood">
+      <UniqueIdentifier>{02e009a5-5d21-40fd-911a-20483a38ac83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\01. Dust">
+      <UniqueIdentifier>{9dffc8b1-77b6-4ecf-84fb-3598acff600d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\02. Fire">
+      <UniqueIdentifier>{9bf51ec7-273d-4849-b4e9-18624d6dc9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\04.Item_Info_View_UI">
+      <UniqueIdentifier>{34f75428-da45-4cd1-a153-f888cc4a85f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\06.UI_DamageFont">
+      <UniqueIdentifier>{47fab6ea-cb89-4bb0-8d4c-31dc963a2c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\96.PlayerHit_UI">
+      <UniqueIdentifier>{f7094176-197c-4705-adba-3fdcd5aecac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\02.UI_CurtStat\00.Player">
+      <UniqueIdentifier>{56cd4c9b-71ed-4af6-a55a-4c972c8fec48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\02.UI_CurtStat\01.RidingMonster">
+      <UniqueIdentifier>{6b71de8e-e624-453c-aab8-1751cd0defb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure">
+      <UniqueIdentifier>{7397551e-9e3b-4973-89ed-0623241c9d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Weapon\00.Bullet">
+      <UniqueIdentifier>{12c84199-a375-47c3-8bad-8ccd8582d288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\08.Dino_Stego">
+      <UniqueIdentifier>{f35c7531-de0c-4009-aaac-7d87b1b2c08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\09.Dino_Yutyrannus">
+      <UniqueIdentifier>{27f76e97-5719-4d17-96ff-af23db4db532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\10.Dino_Ankylo">
+      <UniqueIdentifier>{0293f289-7021-4a99-86dc-3d82bc751d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\02. Fire\00. FireTest">
+      <UniqueIdentifier>{c52cd585-f1ed-4f0c-bd48-0b0bad9ba7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\00. Blood\00. BloodTest">
+      <UniqueIdentifier>{a914ec7e-9f8e-4380-980e-ad4a854aa30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\03. EffectObject">
+      <UniqueIdentifier>{06ae73eb-d1b6-414c-8013-6e51c3ee0680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\03. EffectObject\00. EffectObjectRev">
+      <UniqueIdentifier>{a12d8698-642e-4c88-99e2-899bbcd14af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\03. EffectObject\01. EffectObjectArrow">
+      <UniqueIdentifier>{486fa907-1396-498a-ae36-83ca1b0e2d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.CameraMgr">
+      <UniqueIdentifier>{9c73b2b4-25cf-4830-8f83-8b350ac4746b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Camera\02.TPV_QuaternionCamera">
+      <UniqueIdentifier>{3d5f0206-8b8e-4aff-af9b-b180a98d52cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\98.Camera\03.FPV_QuaternionCamera">
+      <UniqueIdentifier>{89e8bb30-1876-4250-a878-6b882bd7c23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\95.UI_Scroll">
+      <UniqueIdentifier>{5c40b246-60fa-4b6a-b7bf-c0bc280bc362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\99.Scroll">
+      <UniqueIdentifier>{974c5c1e-5bc5-44ad-a50b-65457658d3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\Dino_Fly">
+      <UniqueIdentifier>{13950bec-fc14-4529-b710-fd7bfe6aed2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\Dino_Fly\00.Dino_Ptero">
+      <UniqueIdentifier>{78d9ec3a-3ea1-42c5-bf53-bf59e68f9a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\Dino_Fly\01.Dino_Quetzal">
+      <UniqueIdentifier>{813611e6-a163-446b-a99e-3290c9ab3674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\Dino_Fly\02.Dino_Dragon">
+      <UniqueIdentifier>{40b8ab73-cd18-4e7c-8968-e38fb1dae1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\98.Text_Input">
+      <UniqueIdentifier>{34256db0-8124-478f-9b7c-537fde76838f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\97.UI\00.OrthoUI\07.UI_TamingName">
+      <UniqueIdentifier>{b912dcba-32ce-4c93-a7e6-f62ceaa2b94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Terrain\00. Obstacle">
+      <UniqueIdentifier>{7547d697-0639-4dfc-ad5d-f61200b42d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Terrain\01. SkyDome">
+      <UniqueIdentifier>{47812d2a-9e33-4c3a-8550-815441ce435f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Terrain\02. WaterFall">
+      <UniqueIdentifier>{5daaf673-ca66-4bd2-8d7d-b508343e4abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Terrain\03. Water">
+      <UniqueIdentifier>{6d85016b-fb6d-4e6f-b113-e537c0801d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\00.Campfire">
+      <UniqueIdentifier>{5049d080-e93a-41ad-8b84-74430a82b00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\01.SleepingBag">
+      <UniqueIdentifier>{099e439e-242f-4db9-960f-4ef7145c38a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\02.Forge">
+      <UniqueIdentifier>{964a4e12-fe3e-413a-afb1-02eb1943c198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\03.MortarPestal">
+      <UniqueIdentifier>{f7064d9c-21ea-4881-ad8b-c3d03f78ae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\04.Smithy">
+      <UniqueIdentifier>{e489ba61-230a-4bb8-a117-3344fa4399fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\03. EffectObject\02. Test">
+      <UniqueIdentifier>{d85b9eb5-6458-4dd6-8c0f-cdbf860c8e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Terrain\04. BasketballHoop">
+      <UniqueIdentifier>{672ff2e7-31d7-497d-8aaf-8eea53b09063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\05.Dino_Brachio\00.PlatformSaddle">
+      <UniqueIdentifier>{1f3e555d-8096-4ded-89a9-f2ec5b73f732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\04. Buff">
+      <UniqueIdentifier>{721bf6fc-bb6e-4e8f-b9af-cf02fe529df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\02.Dino\11. Dino_Egg">
+      <UniqueIdentifier>{7237afd1-a4e2-4ddc-9237-eefc51dc2f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\00. Blood\01 .BloodParticle">
+      <UniqueIdentifier>{ac994cef-0175-429c-a3d8-67235d9621bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\02. Fire\01. FireSmoke">
+      <UniqueIdentifier>{59efb50e-6852-42c4-88d7-6176b83823a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\01. Dust\00. StructDust">
+      <UniqueIdentifier>{e63ef336-52c5-4bc9-ae77-86617ee75764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\04. Buff\00. Roar">
+      <UniqueIdentifier>{9a7752fe-8f02-4cc5-bded-5aa4a0a08cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03. Effect\05. Goal">
+      <UniqueIdentifier>{564a886d-2be2-4f0a-a4e8-e1c9fc21e250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building">
+      <UniqueIdentifier>{163ef83e-10f0-424d-8bd3-b5025411e386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\00.Thatch_Floor">
+      <UniqueIdentifier>{9d032a1b-11a1-484d-b118-a4f6287c7ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\01.Thatch_Roof">
+      <UniqueIdentifier>{7be4309e-f94a-4811-97db-277e709363c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\02.Thatch_Wall">
+      <UniqueIdentifier>{50dd5415-6173-4130-bcb2-06be11f9d186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\03.Thatch_DoorFrame">
+      <UniqueIdentifier>{5a21dcdc-9ddf-419d-a891-2d68ac43f78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\04.Thatch_Door">
+      <UniqueIdentifier>{596f9a74-5d45-42d0-9837-3cf1c22c8081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\99.GateFrame">
+      <UniqueIdentifier>{1924868d-7a58-4270-9587-91bd049e395d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\98.GateDoor">
+      <UniqueIdentifier>{68c4d27b-191a-41e8-9587-23f1820e7a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\05.Building_Stairs">
+      <UniqueIdentifier>{6a08c6fb-6e14-40c8-ac7f-3bf5155fc270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\06.Building_SlopeRoof">
+      <UniqueIdentifier>{3e7cde34-11f9-4acd-ac51-3e0650edbcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\07.Building_SlopeRoofLeft">
+      <UniqueIdentifier>{c83f866d-f847-48bd-8909-7f770609ecb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\99.Building\08.Building_SlopeRoofRight">
+      <UniqueIdentifier>{676178b3-6475-40b9-bf50-454b56053fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\05.ThatchBed">
+      <UniqueIdentifier>{51a2e01c-fc61-419b-98c6-837eee772801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\06.WallTorch">
+      <UniqueIdentifier>{162c7871-ea06-453a-bdd4-9b1d741bd08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\07.WaterWell">
+      <UniqueIdentifier>{86a1e3ad-9699-4cf3-b0a8-19920ed25825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\09.CompostBin">
+      <UniqueIdentifier>{7081081e-930f-4765-a161-da189883c2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\10.CropPlot">
+      <UniqueIdentifier>{4b931a91-0b8e-43e1-b465-0693a7028369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\11.FeedingTrough">
+      <UniqueIdentifier>{4cfb822f-be2c-4484-9813-3c60926b4ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\12.Fireplace">
+      <UniqueIdentifier>{c1b1c436-453b-4ac9-ba83-35a1028ffb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\13.Storage">
+      <UniqueIdentifier>{8f6a7010-e428-4a62-b554-e74de14b55fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\08.Barricade">
+      <UniqueIdentifier>{146c5df9-d1be-4ea1-aa54-2109f436ff92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Unit\04.Structure\14.CookingCampFire">
+      <UniqueIdentifier>{cff13508-502f-49eb-990c-8f073c7753f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Value.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Logo.h">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BackGround.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\98.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stage.h">
+      <Filter>01.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain.h">
+      <Filter>02.GameObject\02.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Loading.h">
+      <Filter>01.Scene\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sound_Mgr.h">
+      <Filter>98.Sound_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DynamicCamera.h">
+      <Filter>02.GameObject\98.Camera\00.DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Player.h">
+      <Filter>02.GameObject\00.Unit\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LoadingBackGround.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\97.LoadingBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino.h">
+      <Filter>02.GameObject\00.Unit\02.Dino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Rex.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\01.Dino_Rex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Unit.h">
+      <Filter>02.GameObject\00.Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TPV_Camera.h">
+      <Filter>02.GameObject\98.Camera\01.TPV_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Inventory.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\00.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenTap.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\01.InvenTap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Border.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\99.Border</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenItem.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\03.InvenItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenIcon.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenToolTip.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\05.Inven_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenTransfer.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\00.Inven_Transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenSearchbar.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\06.Inven_SearchBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenItemSort.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\02.Inven_ItemSort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenFolder.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\03.Inven_Folder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenDropAll.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\01.Inven_DropAll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InvenCategory.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\04.Inven_Category</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Left_Inventory.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory\01.Left_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Right_Inventory.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory\02.Right_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tile.h">
+      <Filter>02.GameObject\02.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Weapon.h">
+      <Filter>02.GameObject\01.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CollisionFunc.h">
+      <Filter>03.Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LR_Inventory.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\OrthoUI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI.h">
+      <Filter>02.GameObject\97.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Harvestable.h">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Harvestable_Rock.h">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Center_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\99.Center_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stat_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\99.Center_UI\00.Stat_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Center_Back_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\00.UI_Back_Center</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Stat_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\00.UI_Back_Center\00.UI_Back_Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CenterTap.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\01.UI_Center_Tap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stat_UI_Bar.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\02.UI_Stat_Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Harvestable_Pebble.h">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\PhysX_Mgr.h">
+      <Filter>97.PhysX_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\QuickSlot_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\03.UI_QuickSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GuideFont_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\04.UI_GuideFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Para.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\02.Dino_Para</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_iguanodon.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\03.Dino_Iguanodon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Therizino.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\04.Dino_Therizino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Brachio.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\05.Dino_Brachio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Allo.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\06.Dino_Allo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Raptor.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\07.Dino_Raptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Harvestable_Bush.h">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Harvestable_Tree.h">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\InfoView_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\05.UI_InfoView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LoadingTex_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\100.LoadingTex_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Blood.h">
+      <Filter>02.GameObject\03. Effect\00. Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dust.h">
+      <Filter>02.GameObject\03. Effect\01. Dust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Fire.h">
+      <Filter>02.GameObject\03. Effect\02. Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Item_Info_View_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\04.Item_Info_View_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WorldFont_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\06.UI_DamageFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\PlayerHit_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\96.PlayerHit_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Dodo.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\00.Dino_Dodo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SummaryStat_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\02.UI_CurtStat\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SummaryStat_UI_Monster.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\02.UI_CurtStat\01.RidingMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\RandomFunc.h">
+      <Filter>03.Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet.h">
+      <Filter>02.GameObject\01.Weapon\00.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MiniMap_UI.h" />
+    <ClInclude Include="..\Headers\Dino_Stego.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\08.Dino_Stego</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Yutyrannus.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\09.Dino_Yutyrannus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Ankylo.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\10.Dino_Ankylo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FireTest.h">
+      <Filter>02.GameObject\03. Effect\02. Fire\00. FireTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BloodTest.h">
+      <Filter>02.GameObject\03. Effect\00. Blood\00. BloodTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\EffectObject.h">
+      <Filter>02.GameObject\03. Effect\03. EffectObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\EffectObjectRev.h">
+      <Filter>02.GameObject\03. Effect\03. EffectObject\00. EffectObjectRev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\EffectObjectArrow.h">
+      <Filter>02.GameObject\03. Effect\03. EffectObject\01. EffectObjectArrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CameraMrg.h">
+      <Filter>02.GameObject\99.CameraMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FPV_QuaternionCamera.h">
+      <Filter>02.GameObject\98.Camera\03.FPV_QuaternionCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TPV_QuaternionCamera.h">
+      <Filter>02.GameObject\98.Camera\02.TPV_QuaternionCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Ptero.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\Dino_Fly\00.Dino_Ptero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Quetzal.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\Dino_Fly\01.Dino_Quetzal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Dragon.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\Dino_Fly\02.Dino_Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scroll_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\95.UI_Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scroll.h">
+      <Filter>02.GameObject\97.UI\99.Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="Text_Input.h">
+      <Filter>02.GameObject\97.UI\98.Text_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TamingName_UI.h">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\07.UI_TamingName</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Obstacle.h">
+      <Filter>02.GameObject\02.Terrain\00. Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SkyDome.h">
+      <Filter>02.GameObject\02.Terrain\01. SkyDome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WaterFall.h">
+      <Filter>02.GameObject\02.Terrain\02. WaterFall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Water.h">
+      <Filter>02.GameObject\02.Terrain\03. Water</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Campfire.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\00.Campfire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SleepingBag.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\01.SleepingBag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Structure.h">
+      <Filter>02.GameObject\00.Unit\04.Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Forge.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\02.Forge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MortarPestal.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\03.MortarPestal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Thatch_Floor.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\00.Thatch_Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Thatch_Wall.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\02.Thatch_Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Thatch_Roof.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\01.Thatch_Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Smithy.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\04.Smithy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Thatch_Door.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\04.Thatch_Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Thatch_DoorFrame.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\03.Thatch_DoorFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_MonsterStat_UI.h" />
+    <ClInclude Include="..\Headers\MonsterStat_UI.h" />
+    <ClInclude Include="..\Headers\MonsterStat_UI_Bar.h" />
+    <ClInclude Include="..\Headers\RingCommand_UI.h" />
+    <ClInclude Include="..\Headers\ShadowPosTest.h">
+      <Filter>02.GameObject\03. Effect\03. EffectObject\02. Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BasketballHoop.h">
+      <Filter>02.GameObject\02.Terrain\04. BasketballHoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dodo_Ball.h">
+      <Filter>02.GameObject\02.Terrain\04. BasketballHoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\PlatformSaddle_Brachio.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\05.Dino_Brachio\00.PlatformSaddle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Buff.h">
+      <Filter>02.GameObject\03. Effect\04. Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dino_Egg.h">
+      <Filter>02.GameObject\00.Unit\02.Dino\11. Dino_Egg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BloodParticle.h">
+      <Filter>02.GameObject\03. Effect\00. Blood\01 .BloodParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FireSmoke.h">
+      <Filter>02.GameObject\03. Effect\02. Fire\01. FireSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\StructDust.h">
+      <Filter>02.GameObject\03. Effect\01. Dust\00. StructDust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Roar.h">
+      <Filter>02.GameObject\03. Effect\04. Buff\00. Roar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Goal.h">
+      <Filter>02.GameObject\03. Effect\05. Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Area.h" />
+    <ClInclude Include="..\Headers\GateFrame.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\99.GateFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ThatchBed.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\05.ThatchBed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WallTorch.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\06.WallTorch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WaterWell.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\07.WaterWell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CompostBin.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\09.CompostBin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CropPlot.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\10.CropPlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Fireplace.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\12.Fireplace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Storage.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\13.Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FeedingTrough.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\11.FeedingTrough</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Barricade.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\08.Barricade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CookingCampFire.h">
+      <Filter>02.GameObject\00.Unit\04.Structure\14.CookingCampFire</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Logo.cpp">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BackGround.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\98.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage.cpp">
+      <Filter>01.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>02.GameObject\02.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Loading.cpp">
+      <Filter>01.Scene\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sound_Mgr.cpp">
+      <Filter>98.Sound_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicCamera.cpp">
+      <Filter>02.GameObject\98.Camera\00.DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>02.GameObject\00.Unit\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LoadingBackGround.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\97.LoadingBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Rex.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\01.Dino_Rex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Unit.cpp">
+      <Filter>02.GameObject\00.Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TPV_Camera.cpp">
+      <Filter>02.GameObject\98.Camera\01.TPV_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Inventory.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\00.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenTap.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\01.InvenTap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Border.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\99.Border</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenItem.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\03.InvenItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenIcon.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenToolTip.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\05.Inven_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenTransfer.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\00.Inven_Transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenSearchbar.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\06.Inven_SearchBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenItemSort.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\02.Inven_ItemSort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenFolder.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\03.Inven_Folder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenDropAll.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\01.Inven_DropAll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InvenCategory.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\02.InvenIcon\04.Inven_Category</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Left_Inventory.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory\01.Left_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Right_Inventory.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory\02.Right_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tile.cpp">
+      <Filter>02.GameObject\02.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Weapon.cpp">
+      <Filter>02.GameObject\01.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollisionFunc.cpp">
+      <Filter>03.Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LR_Inventory.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\99.LR_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\OrthoUI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI.cpp">
+      <Filter>02.GameObject\97.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Harvestable.cpp">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Harvestable_Rock.cpp">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Center_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\99.Center_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stat_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\99.Center_UI\00.Stat_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Center_Back_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\00.UI_Back_Center</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Stat_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\00.UI_Back_Center\00.UI_Back_Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CenterTap.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\01.UI_Center_Tap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Harvestable_Pebble.cpp">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PhysX_Mgr.cpp">
+      <Filter>97.PhysX_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\QuickSlot_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\03.UI_QuickSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GuideFont_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\04.UI_GuideFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Para.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\02.Dino_Para</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Iguanodon.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\03.Dino_Iguanodon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Therizino.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\04.Dino_Therizino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Brachio.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\05.Dino_Brachio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Allo.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\06.Dino_Allo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Raptor.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\07.Dino_Raptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Harvestable_Bush.cpp">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Harvestable_Tree.cpp">
+      <Filter>02.GameObject\00.Unit\03.Harvestable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stat_UI_Bar.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\01.UI_Center\00.UI_Stat\02.UI_Stat_Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InfoView_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\05.UI_InfoView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LoadingTex_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\100.LoadingTex_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Blood.cpp">
+      <Filter>02.GameObject\03. Effect\00. Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dust.cpp">
+      <Filter>02.GameObject\03. Effect\01. Dust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Fire.cpp">
+      <Filter>02.GameObject\03. Effect\02. Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Item_Info_View_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\00.UI_Inventory\04.Item_Info_View_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WorldFont_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\06.UI_DamageFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PlayerHit_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\96.PlayerHit_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Dodo.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\00.Dino_Dodo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SummaryStat_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\02.UI_CurtStat\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SummaryStat_UI_Monster.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\02.UI_CurtStat\01.RidingMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RandomFunc.cpp">
+      <Filter>03.Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet.cpp">
+      <Filter>02.GameObject\01.Weapon\00.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MiniMap_UI.cpp" />
+    <ClCompile Include="..\Codes\Dino_Stego.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\08.Dino_Stego</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Yutyrannus.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\09.Dino_Yutyrannus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Ankylo.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\10.Dino_Ankylo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FireTest.cpp">
+      <Filter>02.GameObject\03. Effect\02. Fire\00. FireTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BloodTest.cpp">
+      <Filter>02.GameObject\03. Effect\00. Blood\00. BloodTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EffectObject.cpp">
+      <Filter>02.GameObject\03. Effect\03. EffectObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EffectObjectRev.cpp">
+      <Filter>02.GameObject\03. Effect\03. EffectObject\00. EffectObjectRev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EffectObjectArrow.cpp">
+      <Filter>02.GameObject\03. Effect\03. EffectObject\01. EffectObjectArrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CameraMrg.cpp">
+      <Filter>02.GameObject\99.CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TPV_QuaternionCamera.cpp">
+      <Filter>02.GameObject\98.Camera\02.TPV_QuaternionCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FPV_QuaternionCamera.cpp">
+      <Filter>02.GameObject\98.Camera\03.FPV_QuaternionCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Ptero.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\Dino_Fly\00.Dino_Ptero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Quetzal.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\Dino_Fly\01.Dino_Quetzal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Dragon.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\Dino_Fly\02.Dino_Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scroll_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\95.UI_Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scroll.cpp">
+      <Filter>02.GameObject\97.UI\99.Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="Text_Input.cpp">
+      <Filter>02.GameObject\97.UI\98.Text_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TamingName_UI.cpp">
+      <Filter>02.GameObject\97.UI\00.OrthoUI\07.UI_TamingName</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Obstacle.cpp">
+      <Filter>02.GameObject\02.Terrain\00. Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkyDome.cpp">
+      <Filter>02.GameObject\02.Terrain\01. SkyDome</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WaterFall.cpp">
+      <Filter>02.GameObject\02.Terrain\02. WaterFall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Water.cpp">
+      <Filter>02.GameObject\02.Terrain\03. Water</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Campfire.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\00.Campfire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SleepingBag.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\01.SleepingBag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Structure.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Forge.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\02.Forge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MortarPestal.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\03.MortarPestal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Thatch_Floor.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\00.Thatch_Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Thatch_Wall.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\02.Thatch_Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Thatch_Roof.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\01.Thatch_Roof</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Smithy.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\04.Smithy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Thatch_Door.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\04.Thatch_Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Thatch_DoorFrame.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\03.Thatch_DoorFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_MonsterStat_UI.cpp" />
+    <ClCompile Include="..\Codes\MonsterStat_UI.cpp" />
+    <ClCompile Include="..\Codes\MonsterStat_UI_Bar.cpp" />
+    <ClCompile Include="..\Codes\RingCommand_UI.cpp" />
+    <ClCompile Include="..\Codes\ShadowPosTest.cpp">
+      <Filter>02.GameObject\03. Effect\03. EffectObject\02. Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BasketballHoop.cpp">
+      <Filter>02.GameObject\02.Terrain\04. BasketballHoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dodo_Ball.cpp">
+      <Filter>02.GameObject\02.Terrain\04. BasketballHoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PlatformSaddle_Brachio.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\05.Dino_Brachio\00.PlatformSaddle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Buff.cpp">
+      <Filter>02.GameObject\03. Effect\04. Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dino_Egg.cpp">
+      <Filter>02.GameObject\00.Unit\02.Dino\11. Dino_Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BloodParticle.cpp">
+      <Filter>02.GameObject\03. Effect\00. Blood\01 .BloodParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FireSmoke.cpp">
+      <Filter>02.GameObject\03. Effect\02. Fire\01. FireSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SturctDust.cpp">
+      <Filter>02.GameObject\03. Effect\01. Dust\00. StructDust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Roar.cpp">
+      <Filter>02.GameObject\03. Effect\04. Buff\00. Roar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Goal.cpp">
+      <Filter>02.GameObject\03. Effect\05. Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Area.cpp" />
+    <ClCompile Include="..\Codes\GateFrame.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\99.Building\99.GateFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ThatchBed.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\05.ThatchBed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WallTorch.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\06.WallTorch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WaterWell.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\07.WaterWell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CompostBin.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\09.CompostBin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CropPlot.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\10.CropPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FeedingTrough.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\11.FeedingTrough</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Fireplace.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\12.Fireplace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Storage.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\13.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Barricade.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\08.Barricade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CookingCampFire.cpp">
+      <Filter>02.GameObject\00.Unit\04.Structure\14.CookingCampFire</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Defaults</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99.Defaults</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Defaults</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Defaults</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
